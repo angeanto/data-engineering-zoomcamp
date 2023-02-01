@@ -1,2 +1,17 @@
 # Refresh token/session, and verify authentication
 $ gcloud auth application-default login
+
+
+# connect to vm's terminal
+gcloud compute ssh --zone "europe-west6-a" "de-zoomcamp"  --project "adept-storm-375515"
+
+It will need google auth login
+
+I can also login straight with: 
+
+$ ssh de-zoomcamp from my terminal
+
+$ source .bashrc for terminal
+
+$ ssh de-zoomcamp
+$ ssh -R 52698:localhost:52698 de-zoomcamp
