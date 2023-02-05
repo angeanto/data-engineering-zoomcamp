@@ -1,7 +1,7 @@
 ###
 ### A complete description of a Prefect Deployment for flow 'etl-web-to-gcs'
 ###
-name: Github Storage Blcok Flow
+name: Exercise ETL
 description: The main ETL function
 version: 22cb8c2ad77fc067f1e88ccb8fcbc3aa
 # The work queue that will handle this deployment's runs
@@ -26,8 +26,16 @@ infrastructure:
 ###
 flow_name: etl-web-to-gcs
 manifest_path: null
-storage: null
-path: /home/antonis/data-engineering-zoomcamp/week_2_workflow_orchestration/flows/03_deployments
+storage:
+  repository: https://github.com/angeanto/data-engineering-zoomcamp.git
+  reference: null
+  access_token: null
+  _block_document_id: 24094175-2476-4230-b865-cbafa7789e20
+  _block_document_name: zoom
+  _is_anonymous: false
+  block_type_slug: github
+  _block_type_slug: github
+path: ''
 entrypoint: etl_web_to_gcs_exercise.py:etl_web_to_gcs
 parameter_openapi_schema:
   title: Parameters
