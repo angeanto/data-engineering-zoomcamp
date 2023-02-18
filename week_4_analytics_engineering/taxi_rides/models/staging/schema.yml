@@ -8,7 +8,6 @@ sources:
 
       # For postgres:
       database: production
-
       schema: dezoomcamp
 
       # loaded_at_field: record_loaded_at
