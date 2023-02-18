@@ -14,6 +14,7 @@ sources:
       tables:
         - name: rides_green_all
         - name: rides_yellow_all
+        - name: fhv_tripdata_all
          # freshness:
            # error_after: {count: 6, period: hour}
 
