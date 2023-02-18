@@ -12,8 +12,8 @@ sources:
 
       # loaded_at_field: record_loaded_at
       tables:
-        - name: rides_green
-        - name: rides_yellow
+        - name: rides_green_all
+        - name: rides_yellow_all
          # freshness:
            # error_after: {count: 6, period: hour}
 
