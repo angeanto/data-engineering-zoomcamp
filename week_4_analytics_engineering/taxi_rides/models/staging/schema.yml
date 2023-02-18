@@ -7,7 +7,7 @@ sources:
       database: adept-storm-375515
 
       # For postgres:
-      database: production
+      #database: production
       schema: dezoomcamp
 
       # loaded_at_field: record_loaded_at
